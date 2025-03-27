@@ -1,7 +1,7 @@
 # Laser Scan Playground
 
 ## Project Description
-This is a little Python toy I kicked off in early 2024 after a physics class demo on optics got me curious about how lasers scan stuff in manufacturing—like wafers for chips. It’s a simulator that pretends a laser sweeps across a fake 2D surface (think a tiny, scratched-up square), finds "defects" (random bumps I added), and shows you what’s going on with some cool visuals. I started it to mess around with scanning ideas at home, and it’s grown into something kinda neat.
+It’s a simulator that pretends a laser sweeps across a fake 2D surface (think a tiny, scratched-up square), finds "defects" (random bumps I added), and shows you what’s going on with some cool visuals. I started it to mess around with scanning ideas at home, and it’s grown into something kinda neat.
 
 Here’s what it does:
 - **Makes a Surface**: Creates a 100x100 grid with wavy patterns (using NumPy) and sprinkles random noise to mimic scratches or dirt.
