@@ -1,0 +1,13 @@
+prefix=/Users/krupalitejani/Desktop/Laser Scan Playground/laserenv
+exec_prefix=/Users/krupalitejani/Desktop/Laser Scan Playground/laserenv
+libdir=/Users/krupalitejani/Desktop/Laser Scan Playground/laserenv/lib
+sharedlibdir=/Users/krupalitejani/Desktop/Laser Scan Playground/laserenv/lib
+includedir=/Users/krupalitejani/Desktop/Laser Scan Playground/laserenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
